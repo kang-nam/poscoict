@@ -3,14 +3,14 @@ hello: "기본 옵션입니다.지정한 프로필과 같이 출력됩니다" #�
 --- #프로필 구분자
 spring:
   profiles: dev
-hello: "개발옵션입니다."
+hellod: "개발옵션입니다."
 
 ---
 spring:
   profiles: test
-hello: "테스트옵션입니다."
+hellot: "테스트옵션입니다."
 
 ---
 spring:
   profiles: act
-hello: "가동옵션입니다."
+helloa: "가동옵션입니다."
