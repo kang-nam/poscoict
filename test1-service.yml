@@ -1,1 +1,16 @@
-hello: "안녕하세요"
+hello: "기본옵션입니다."
+
+---
+spring:
+  profiles: dev
+hello: "개발옵션입니다."
+
+---
+spring:
+  profiles: test
+hello: "테스트옵션입니다."
+
+---
+spring:
+  profiles: act
+hello: "가동옵션입니다."
