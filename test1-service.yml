@@ -1,17 +1,17 @@
 #모든프로필에 추가적으로 나온다.프로필 defualt로 지정하면 이것만 출력됨
-hello: "기본옵션입니다." 
+hello: 기본옵션입니다.
 
 --- #프로필 구분자
 spring:
   profiles: dev
-hellod: "개발옵션입니다."
+hellod: 개발옵션입니다.
 
 ---
 spring:
   profiles: test
-hellot: "테스트옵션입니다."
+hellot: 테스트옵션입니다.
 
 ---
 spring:
   profiles: act
-helloa: "가동옵션입니다."
+helloa: 가동옵션입니다.
