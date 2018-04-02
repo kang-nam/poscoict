@@ -1,3 +1,6 @@
+hello: "기본옵션입니다.지정한프로필과같이출력됩니다"
+
+---
 spring:
   profiles: dev
 hello: "개발옵션입니다."
