@@ -4,14 +4,14 @@ hello: 기본옵션 입니다
 --- #프로필 구분자
 spring:
   profiles: dev
-hellod: 개발옵션입니다.
+hello: 개발옵션입니다.
 
 ---
 spring:
   profiles: test
-hellot: 테스트옵션입니다.
+hello: 테스트옵션입니다.
 
 ---
 spring:
   profiles: act
-helloa: 가동옵션입니다.
+hello: 가동옵션입니다.
